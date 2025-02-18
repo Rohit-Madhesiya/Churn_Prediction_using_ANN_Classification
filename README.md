@@ -5,9 +5,9 @@ A Streamlit-based web application that predicts customer churn using a deep lear
 🔗 [Try the App on Streamlit](https://churnpredictionusingannclassification-5dxljksxj9ubtezfdx7hmc.streamlit.app/)
 ## Features
 
-- Interactive UI built with **Streamlit**\
-- Uses a **trained TensorFlow model** for churn prediction\
-- **One-hot encoding & scaling** of categorical features\
+- Interactive UI built with **Streamlit**
+- Uses a **trained TensorFlow model** for churn prediction
+- **One-hot encoding & scaling** of categorical features
 - **Real-time prediction probability** for customer churn
 
 ## Dependencies
@@ -44,7 +44,7 @@ streamlit run app.py
 ```
 ## Usage
 
-- Enter customer details (Geography, Gender, Age, Credit Score, etc.)
+- Enter customer details (Geography(Country like: France, Germany), Gender, Age, Credit Score, etc.).
 - The model processes the input, encodes categorical data, and predicts the churn probability.
 - If the churn probability is above 0.5, the customer is likely to churn; otherwise, they are not.
 ## Technology Stack
